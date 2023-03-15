@@ -1,0 +1,35 @@
+package Gun01;
+
+import org.testng.annotations.Test;
+
+public class _01_Giris {
+    //    public static void main(String[] args) {
+//        webSitesiniAc();
+//        LoginIsleminiYap();
+//        driveriKapat();
+//    }
+
+//    @Test JUnit
+//    public void Test1(){
+//        webSitesiniAc();
+//        LoginIsleminiYap();
+//        driveriKapat();
+//    }
+
+    // Eğer herhangi bir sıralama verilmezse metod isimlerinin alfabetik çalışıyor
+    @Test(priority = 1)
+    public void webSitesiniAc(){
+        System.out.println("driver tanımlandı ve web sitesi açıldı");
+
+    }
+    @Test(priority = 2)
+    public void LoginIsleminiYap (){
+        System.out.println("driver tanımlandı ve web sitesi açıldı");
+
+    }
+    @Test(priority = 3)
+    public void driveriKapat(){
+        System.out.println("driver tanımlandı ve web sitesi açıldı");
+
+    }
+}
