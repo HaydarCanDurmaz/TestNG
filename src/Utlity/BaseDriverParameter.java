@@ -67,11 +67,11 @@ public class BaseDriverParameter {
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
 
-        WebElement inputEmail = driver.findElement(By.id("input-email"));
-        inputEmail.sendKeys("testng1@gmail.com");
+        WebElement inputEmail=driver.findElement(By.id("input-email"));
+        inputEmail.sendKeys("hcndr@gmail.com");
 
-        WebElement password = driver.findElement(By.id("input-password"));
-        password.sendKeys("123qweasd");
+        WebElement password=driver.findElement(By.id("input-password"));
+        password.sendKeys("1234555");
 
         WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
         loginBtn.click();
